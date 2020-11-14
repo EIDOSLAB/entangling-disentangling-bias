@@ -187,6 +187,7 @@ if __name__ == '__main__':
             epochs=config.epochs,
             rho=config.rho
         )
+        hyperparameters_defaults.update(config)
 
         tags = ['abs']
         if config.alpha == 0 and config.beta == 0:
