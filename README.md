@@ -8,7 +8,7 @@ pip3 install -r requirements.txt
 
 ## Running
 
-**Note**: Anonymous mode for https://wandb.ai seems not to be working at the moment. An account is suggested
+**Note**: *Anonymous mode for https://wandb.ai seems not to be working at the moment. An account is suggested*
 
 To create the sweep (hyperparameter search):
 
