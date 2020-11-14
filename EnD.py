@@ -11,8 +11,7 @@ class pattern_norm(torch.nn.Module):
 		sizes = input.size()
 		if len(sizes) > 2:
 			input = input.view(-1, np.prod(sizes[1:]))
-		# perchè *self.scale*np.sqrt(input.size()[1]) ?
-		input = torch.nn.functional.normalize(input, p=2, dim=1, eps=1e-12)#*self.scale*np.sqrt(input.size()[1])
+		input = torch.nn.functional.normalize(input, p=2, dim=1, eps=1e-12)
 		input = input.view(sizes)
 		return input
 
