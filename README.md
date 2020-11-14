@@ -36,6 +36,21 @@ From wandb.ai, and to see final results:
 python3 results.py <sweep_id>
 ```
 
+Example output:
+
+```
+valid_acc  biased_test_acc  unbiased_test_acc     state        id
+51   0.839778           0.9997             0.8501  finished  wtb1t9kr
+55   0.825611           0.9996             0.8361  finished  u5oslxfp
+51   0.821111           0.9999             0.8249  finished  j8wj5jyg
+. . .
+. . .
+------- SUMMARY FOR EnD-cvpr21/Biased MNIST - rho 0.997 - ABS - valid -------
+biased_test_acc: 99.97 ± 0.01
+unbiased_test_acc: 83.70 ± 1.03
+
+```
+
 ## Running a local instance
 
 ```
