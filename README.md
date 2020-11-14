@@ -33,7 +33,7 @@ python3 results.py <sweep_id>
 ## Running a local instance
 
 ```
-python3 EnD_rebias_mnist_sweep.py --local --alpha 0.1 --beta 0.1 ..
+python3 EnD_rebias_mnist_sweep.py --local --alpha 0.1 --beta 0.1
 ```
 
 More CLI arguments can be found in **configs.py**
