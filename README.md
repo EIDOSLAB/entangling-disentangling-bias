@@ -16,11 +16,17 @@ To create the sweep (hyperparameter search):
 wandb sweep sweeps/biased_mnist_abs.yaml
 ```
 
-To launch one or more agend
+To change the value of rho, edit sweeps/biased_mnist_abs.yaml accordingly.
+We recommend searching alpha and beta in the range [0;1] for rho=0.990,0.995,0.997 and
+[0;50] for rho=0.999.
+
+To launch one or more agents
 
 ```
 wandb agent <sweep_id>
 ```
+
+We recommend at least 20 runs, to let the hyperparameters search converge.
 
 ## Visualizing results
 
