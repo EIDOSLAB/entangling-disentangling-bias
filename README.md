@@ -1,4 +1,4 @@
-# EnD: Entangling and Disentangling deep representations for bias correction
+# Entangling and Disentangling deep representations for bias correction
 
 ## Prerequisites
 
