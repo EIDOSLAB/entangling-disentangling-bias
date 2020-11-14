@@ -16,16 +16,14 @@ def sweep_summary(sweep_id, n_top):
         if 'valid_acc' not in history.columns:
             continue
 
-        best_idx = history.valid_acc.argmax()
         best = history.valid_acc.idxmax()
         entry = history.loc[best].copy()
         entry['state'] = run.state
-        entry['step'] = f'{len(history.valid_acc)} ({best_idx})'
         entry['id'] = run.id
         best_runs = best_runs.append(entry)
 
     metrics = ['biased_test_acc', 'unbiased_test_acc']
-    best_runs = best_runs.sort_values('valid_acc', ascending=False).loc[:, ['valid_acc'] + metrics + ['state', 'step', 'id']]
+    best_runs = best_runs.sort_values('valid_acc', ascending=False).loc[:, ['valid_acc'] + metrics + ['state', 'id']]
     print(best_runs)
 
     print(f'------- SUMMARY FOR {project}/{name} -------')
