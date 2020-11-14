@@ -45,7 +45,7 @@ Example output:
 51   0.821111           0.9999             0.8249  finished  j8wj5jyg
 . . .
 . . .
-------- SUMMARY FOR EnD-cvpr21/Biased MNIST - rho 0.997 - ABS - valid -------
+------- SUMMARY FOR EnD-cvpr21/Biased MNIST - rho 0.997 - EnD -------
 biased_test_acc: 99.97 ± 0.01
 unbiased_test_acc: 83.70 ± 1.03
 
