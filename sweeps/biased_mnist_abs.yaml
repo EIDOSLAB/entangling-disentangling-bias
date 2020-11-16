@@ -27,4 +27,4 @@ parameters:
     epochs:
         value: 80
     rho:
-        value: 0.990
+        value: 0.997
