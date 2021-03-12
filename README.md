@@ -1,4 +1,8 @@
-# Entangling and Disentangling deep representations for bias correction
+# Entangling and Disentangling deep representations for bias correction (CVPR21)
+
+Official repository for **EnD** [[paper](https://arxiv.org/abs/2103.02023)]
+
+![Gradcam animation](assets/animation.gif)
 
 ## Prerequisites
 
