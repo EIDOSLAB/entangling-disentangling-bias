@@ -2,7 +2,8 @@
 
 Official repository for **EnD** [[paper](https://arxiv.org/abs/2103.02023)]
 
-![Gradcam animation](assets/animation.gif)
+
+<img src="assets/animation.gif" align="center" width=400 height=400/>
 
 ## Prerequisites
 
