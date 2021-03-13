@@ -2,6 +2,9 @@
 
 Official repository for **EnD** [[paper](https://arxiv.org/abs/2103.02023)]
 
+Enzo Tartaglione<sup>1</sup>, Carlo Alberto Barbano<sup>1</sup>, Marco Grangetto<sup>1</sup>
+
+1<sub>University of Turin, Computer Science dept.</sub>
 
 <img src="assets/animation.gif" align="center" width=400 height=400/>
 
