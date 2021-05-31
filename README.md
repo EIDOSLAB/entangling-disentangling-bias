@@ -1,6 +1,6 @@
 # Entangling and Disentangling deep representations for bias correction (CVPR21)
 
-[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2103.02023)
+[![arXiv](https://img.shields.io/badge/arXiv-2103.02023-b31b1b.svg)](https://arxiv.org/abs/2103.02023)
 
 Official repository for **EnD** <>[[paper](https://arxiv.org/abs/2103.02023)]
 
