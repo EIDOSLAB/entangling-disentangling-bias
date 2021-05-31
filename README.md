@@ -1,6 +1,8 @@
 # Entangling and Disentangling deep representations for bias correction (CVPR21)
 
-Official repository for **EnD** [[paper](https://arxiv.org/abs/2103.02023)]
+[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2103.02023)
+
+Official repository for **EnD** <>[[paper](https://arxiv.org/abs/2103.02023)]
 
 Enzo Tartaglione<sup>1</sup>, Carlo Alberto Barbano<sup>1</sup>, Marco Grangetto<sup>1</sup>
 
