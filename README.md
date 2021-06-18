@@ -1,8 +1,8 @@
 # Entangling and Disentangling deep representations for bias correction (CVPR21)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2103.02023-b31b1b.svg)](https://arxiv.org/abs/2103.02023)
+<!--[![arXiv](https://img.shields.io/badge/arXiv-2103.02023-b31b1b.svg)](https://arxiv.org/abs/2103.02023)-->
 
-Official repository for **EnD** | [[paper](https://arxiv.org/abs/2103.02023)]
+Official repository for **EnD** | [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Tartaglione_EnD_Entangling_and_Disentangling_Deep_Representations_for_Bias_Correction_CVPR_2021_paper.pdf)] [[supp](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Tartaglione_EnD_Entangling_and_CVPR_2021_supplemental.pdf)]
 
 Enzo Tartaglione<sup>1</sup>, Carlo Alberto Barbano<sup>1</sup>, Marco Grangetto<sup>1</sup>
 
@@ -68,3 +68,18 @@ python3 EnD_rebias_mnist_sweep.py --local --alpha 0.1 --beta 0.1
 ```
 
 More CLI arguments can be found in **configs.py**
+
+## Citing
+
+For citing our work, please use the following bibtex entry:
+
+```bibtex
+@InProceedings{Tartaglione_2021_CVPR,
+    author    = {Tartaglione, Enzo and Barbano, Carlo Alberto and Grangetto, Marco},
+    title     = {EnD: Entangling and Disentangling Deep Representations for Bias Correction},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {13508-13517}
+}
+```
