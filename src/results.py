@@ -20,13 +20,16 @@ def sweep_summary(sweep_id, n_top):
         entry = history.loc[best].copy()
         entry['state'] = run.state
         entry['id'] = run.id
+        entry['alpha'] = run.config['alpha']
+        entry['beta'] = run.config['beta']
         best_runs = best_runs.append(entry)
 
     metrics = ['biased_test_acc', 'unbiased_test_acc']
-    best_runs = best_runs.sort_values('valid_acc', ascending=False).loc[:, ['valid_acc'] + metrics + ['state', 'id']]
-    print(best_runs)
-
+    best_runs = best_runs.sort_values('valid_acc', ascending=False).loc[:, ['valid_acc'] + metrics + ['alpha', 'beta', 'state', 'id']]
+    
     print(f'------- SUMMARY FOR {project}/{name} -------')
+    print(best_runs)
+    
     for metric in metrics:
         print(f'{metric}: {best_runs.iloc[:n_top][metric].mean()*100:.2f} ± {best_runs.iloc[:n_top][metric].std(ddof=0)*100:.2f}')
     print('\n')
